@@ -8,6 +8,9 @@ actor: AcceptanceTester
 modules:
     enabled:
         - PhpBrowser:
-            url: http://localhost/myapp
+            url: http://localhost
         - \Helper\Acceptance
-    step_decorators: ~        
+    step_decorators: ~
+    config:
+        PhpBrowser:
+            url: http://local.crmapp.com # remote host for testing on VM
