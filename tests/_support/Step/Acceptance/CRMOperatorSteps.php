@@ -11,7 +11,7 @@ class CRMOperatorSteps extends \AcceptanceTester
     public function amInAddCustomerUi()
     {
         $I = $this;
-        $I->amOnPage('/customer/add');
+        $I->amOnPage('/customers/add');
     }
 
     /**

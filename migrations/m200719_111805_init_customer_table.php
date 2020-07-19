@@ -27,19 +27,4 @@ class m200719_111805_init_customer_table extends Migration
     {
         $this->dropTable('customer');
     }
-
-    /*
-    // Use up()/down() to run migration code without a transaction.
-    public function up()
-    {
-
-    }
-
-    public function down()
-    {
-        echo "m200719_111805_init_customer_table cannot be reverted.\n";
-
-        return false;
-    }
-    */
 }

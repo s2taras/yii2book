@@ -15,7 +15,7 @@ class Customer
     /** @var string */
     public $notes;
 
-    /** @var PhoneRecord[] */
+    /** @var Phone[] */
     public $phones = [];
 
     /**

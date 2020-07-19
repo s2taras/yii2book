@@ -20,7 +20,7 @@ class CRMUserSteps extends \AcceptanceTester
     public function fillInPhoneFieldWithDataForm($customer_data)
     {
         $I = $this;
-        $I->fillField('PhoneRecord[number]', $customer_data['PhoneRecord[number]']);
+        $I->fillField('phone_number', $customer_data['PhoneRecord[number]']);
     }
 
     /**

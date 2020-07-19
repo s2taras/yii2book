@@ -29,19 +29,4 @@ class m200719_112337_init_phone_table extends Migration
         $this->dropForeignKey('customer_phone_numbers', 'phone');
         $this->dropTable('phone');
     }
-
-    /*
-    // Use up()/down() to run migration code without a transaction.
-    public function up()
-    {
-
-    }
-
-    public function down()
-    {
-        echo "m200719_112337_init_phone_table cannot be reverted.\n";
-
-        return false;
-    }
-    */
 }
