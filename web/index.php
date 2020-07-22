@@ -1,7 +1,9 @@
 <?php
 define('YII_DEBUG', true);
 
-// Include framework Yii2
+// Require autoload
+require(__DIR__ . '/../vendor/autoload.php');
+// Require framework Yii2
 require(__DIR__ . '/../vendor/yiisoft/yii2/Yii.php');
 // Get configs
 $config = require(__DIR__ . '/../config/web.php');
