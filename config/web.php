@@ -4,6 +4,13 @@ return [
     'id' => 'crmapp',
     'basePath' => realpath(__DIR__ . '/../'),
     'components' => [
+        'view' => [
+            'renderers' => [
+                'md' => [
+                    'class' => 'app\utilities\MarkdownRenderer',
+                ]
+            ],
+        ],
         'request' => [
             'cookieValidationKey' => 'your secret key here',
 //            'enableCookieValidation' => false,
