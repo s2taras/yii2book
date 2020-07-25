@@ -11,6 +11,13 @@ return [
                 ]
             ],
         ],
+        'response' => [
+            'formatters' => [
+                'yaml' => [
+                    'class' => 'app\utilities\YamlResponseFormatter',
+                ]
+            ],
+        ],
         'request' => [
             'cookieValidationKey' => 'your secret key here',
 //            'enableCookieValidation' => false,
